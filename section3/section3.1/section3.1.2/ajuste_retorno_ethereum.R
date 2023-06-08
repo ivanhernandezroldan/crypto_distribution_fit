@@ -39,7 +39,7 @@ denscomp(list(fn, fln, fg, fb), legendtext = plot.legend)
 cdfcomp(list(fn, fln, fg, fb), legendtext = plot.legend)
 qqcomp(list(fn, fln, fg, fb), legendtext = plot.legend)
 ppcomp(list(fn, fln, fg, fb), legendtext = plot.legend)
+    
   
   
-  
-# 
+
