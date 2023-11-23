@@ -1,0 +1,2 @@
+# business_management_and_administration_bachelor_thesis_2023
+Source code of my Business Management and Administration Bachelor's Thesis. This project analyzes the adjustment of Bitcoin and Ethereum distributions in order to determine which one has more probabilities of giving a specific return. Also, it could constitute a part of a bigger analysis demanded by a possible future crypto investment decision.
