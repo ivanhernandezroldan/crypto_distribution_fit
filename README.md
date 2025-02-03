@@ -1,10 +1,70 @@
-# business_management_and_administration_bachelor_thesis_2023
-Source code of my Business Management and Administration Bachelor's Thesis. This project analyzes, with R, the fitting of the distributions of the Bitcoin and Ethereum returns in order to determine which is more likely to give a given return. Also, it could constitute a part of a bigger analysis demanded by a possible future crypto investment decision.
+# 📊 Cryptocurrency Distribution Fit Analysis
 
-Based on a previous analysis of returns over the duration of the investment period, in this analysis the position of an investor seeking returns after seven days was adopted.
+This repository contains the R code and analysis for studying the statistical distribution fitting of cryptocurrency returns, with a focus on comparing normal and uniform distributions. The project is part of a bachelor's thesis research on cryptocurrency market behavior and statistical modeling.
 
-- **Section 3.1** develops the fitting of the weekly returns of Bitcoin (3.1.1) and Ethereum (3.2.2). First, the candidate distributions are selected using the Cullen and Frey graph (skewness and kurtosis). Finally, the distribution to which the observed distribution is fitted is defined following the log-likelihood and Akaike and Bayesian information criteria (AIC and BIC).
+## 📁 Project Structure
 
-- **Section 3.2** attempts to compare the probabilities of a given return occurring in both Bitcoin and Ethereum. To do this, it is necessary to necessary to use the probability density functions of the distributions we have previously fitted for each cryptocurrency.
+```
+├── normal_distribution_vs_uniform_distribution.R  # Main comparison script
+├── probability_calculation_example.R              # Probability calculations
+├── section3.1/                                   # Time horizon analysis
+│   ├── time_horizon_analysis.R
+│   ├── section3.1.1/
+│   └── section3.1.2/
+├── section3.2/                                   # Returns comparison
+│   └── returns_comparison.R
+└── BACHELOR_THESIS_REPORT.pdf                    # Complete thesis report
+```
 
-Author: Iván Hernández Roldán
+## ⚙️ Requirements
+
+- R programming language
+- Required R packages:
+  - ggplot2 (for visualization)
+  - Additional dependencies as specified in individual scripts
+
+## ✨ Features
+
+1. **📈 Distribution Comparison Analysis**
+   - Comparison between normal and uniform distributions
+   - Visual representation using density plots
+   - Statistical analysis of cryptocurrency returns
+
+2. **⏱️ Time Horizon Analysis**
+   - Analysis of different time horizons
+   - Located in section3.1/
+   - Includes detailed sub-analyses in sections 3.1.1 and 3.1.2
+
+3. **💹 Returns Comparison**
+   - Comprehensive analysis of cryptocurrency returns
+   - Statistical modeling and comparison
+   - Located in section3.2/
+
+## 🚀 Usage
+
+1. Clone this repository
+2. Install required R packages:
+   ```R
+   install.packages("ggplot2")
+   # Install other required packages as needed
+   ```
+3. Run the desired scripts using R or RStudio
+
+## 📝 Scripts Description
+
+- `normal_distribution_vs_uniform_distribution.R`: Compares normal and uniform distributions with visualization
+- `probability_calculation_example.R`: Contains examples of probability calculations
+- `section3.1/time_horizon_analysis.R`: Analyzes different time horizons for cryptocurrency returns
+- `section3.2/returns_comparison.R`: Performs detailed returns comparison analysis
+
+## 📚 Documentation
+
+For a complete understanding of the research and methodology, please refer to the `BACHELOR_THESIS_REPORT.pdf` file included in this repository.
+
+## 🤝 Contributing
+
+This repository is part of a bachelor's thesis project. While it's primarily for academic purposes, suggestions and improvements are welcome through issues and pull requests.
+
+## 📄 License
+
+This project is available for academic and research purposes. Please refer to the thesis report for citation requirements.
